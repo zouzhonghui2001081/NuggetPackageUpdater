@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:NuggetPackageUpdater"
 		Title="Nugget Package Updater"
 		mc:Ignorable="d"
-        Height="600" Width="1010" WindowStyle="ToolWindow" ResizeMode="NoResize">
+        Height="700" Width="1010" ResizeMode="NoResize">
 	<Window.DataContext>
 		<local:MainWindowViewModel />
 	</Window.DataContext>

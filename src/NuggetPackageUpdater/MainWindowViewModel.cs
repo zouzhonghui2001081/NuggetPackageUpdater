@@ -110,6 +110,8 @@ namespace NuggetPackageUpdater
 				return;
 			}
 
+			Messages.Clear();
+
 			Messages.Add($"{allProjectFiles.Length} csproj file(s) found under {SolutionDirectory}");
 			// Update the UI.
 			this.DoEvents();
